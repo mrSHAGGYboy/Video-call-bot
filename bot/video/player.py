@@ -167,5 +167,5 @@ async def not_chat(_, m: Message):
                 InlineKeyboardButton("Source Code", url="https://github.com/youtubeslgeekshow/Video-call-bot"),
             ]
          ]
-    await m.reply_text(text="**Sorry, You Can't Use This Bot In This Group! 🤷‍♂️ But You Can Make Your Own Bot Like This From The [Source Code](https://github.com/youtubeslgeekshow/Video-call-bot) 😉!**", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await m.reply_text(text="**Sorry, You Can't Use This Bot In This Group! 🤷‍♂️ But You Can Make Your Own Bot Like This From The [Source Code](https://github.com/mrSHAGGYboy/Video-call-bot) 😉!**", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
