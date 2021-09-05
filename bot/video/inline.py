@@ -27,11 +27,11 @@ REPLY_MESSAGE = Config.REPLY_MESSAGE
 
 buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/sl_bot_zone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/slbotzone"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/sl_media_tech"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/SL_MEDIA_TECH_GRUOP"),
             ],
             [
-                InlineKeyboardButton("Socure code", url="https://github.com/youtubeslgeekshow/Video-call-bot"),
+                InlineKeyboardButton("Dev", url="https://t.me/mrSHAGGYboy"),
             ]
          ]
 
@@ -42,7 +42,7 @@ async def search(client, query):
         answers.append(
             InlineQueryResultArticle(
                 title="Deploy Own Video Player Bot",
-                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@sl_bot_zone | @szrosebot </b>", disable_web_page_preview=True),
+                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n @SL_MEDIA_TECH_GRUOP | @NovaTechlk </b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
