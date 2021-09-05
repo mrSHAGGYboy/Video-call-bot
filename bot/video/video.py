@@ -176,11 +176,11 @@ allcmd = ["start", "help", f"start@{USERNAME}", f"help@{USERNAME}"] + admincmds
 async def not_chat(_, m: Message):
     buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/sl_bot_zone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/slbotzone"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/sl_media_tech"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/SL_MEDIA_TECH_GRUOP"),
             ],
             [
-                InlineKeyboardButton("Socure", url="https://github.com/youtubeslgeekshow/Video-call-bot"),
+                InlineKeyboardButton("Dev", url="https://t.me/mrSHAGGYboy"),
             ]
          ]
-    await m.reply_text(text="**Sorry, You Can't Use This Bot In This Group 🤷‍♂️! But You Can Make Your Own Bot Like This From The [Source Code](https://github.com/youtubeslgeekshow/Video-call-bot) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await m.reply_text(text="**Sorry, You Can't Use This Bot In This Group 🤷‍♂️! But You Can Make Your Own Bot Like This From The [Source Code](https://github.com/mrSHAGGYboy/Video-call-bot) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
